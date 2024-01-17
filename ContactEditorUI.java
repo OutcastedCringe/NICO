@@ -44,7 +44,7 @@ public class ContactEditorUI extends javax.swing.JFrame {
 
         Temp.setText("Temperature");
 
-        Gear.setText("GEAR");
+        Gear.setText(""+gear[currentGear]);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -132,5 +132,11 @@ public class ContactEditorUI extends javax.swing.JFrame {
     private javax.swing.JLabel MPH;
     private javax.swing.JLabel RPM;
     private javax.swing.JLabel Temp;
-    // End of variables declaration                   
+    // End of variables declaration         
+              //Method for urmoms house
+    public void GEAR(){
+
+    }
+    int currentGear = 1;
+    char[] gear = {'R','N','1','2','3','4'};
 }
